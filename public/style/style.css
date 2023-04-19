@@ -1,0 +1,53 @@
+.banner-animate {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .banner-animate.animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .img-container {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .img-container img {
+    width: 100%;
+  }
+
+  header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 200px; /* asegura que el header ocupe todo el alto de la pantalla */
+  }
+
+  #proyectos {
+    background-color: #dfdfdf;
+  }
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fa-githu{
+  margin-left: 3px;
+  
+}
+
+.a{
+  text-decoration: underline 1px white;
+}
+.a:hover{
+  color: #dfdfdf;
+}
+
+.col-md-4{
+  margin-top: 10px;
+}
+
+
+

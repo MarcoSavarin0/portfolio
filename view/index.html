@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/_MS .png" type="image/x-icon">
+    <title>< Marco Savarino /></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4d18b4db01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <!-- inicio del navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="home">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"> < Marco Savarino /> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobremi">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- fin del navbar -->
+      <header class="bg-dark text-light text-center py-5" id="sobremi">
+        <div class="container">
+          <h1 class="display-4 banner-animate">MARCO SAVARINO</h1>
+          <p class="lead banner-animate">FULL STACK DEVELOPER</p>
+        </div>
+      </header>
+      <section id="sobre-mi" class="bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="section-title"><b>Sobre mí</b></h2>
+              <p class="section-description" style="font-size: 28px;">¡Hola! Soy <strong> Marco Savarino</strong>, </p>
+              <p class="section-description" style="font-size: 20px;">Soy un apasionado de la informática y recién graduado sin experiencia laboral. Mi enfoque principal es el desarrollo Backend y estoy buscando un trabajo que me permita aplicar mis habilidades y aprender de profesionales del sector. Estoy dispuesto a afrontar cualquier reto y trabajar duro para cumplir con los objetivos de la empresa. Mi pasión y capacidad para aprender rápidamente me permitirán aportar valor a cualquier proyecto en el que participe.</p>
+              
+              <h3 class="mt-5 mb-3">Estudios</h3>
+              <ul>
+                <li>Secundario en el Colegio Inmaculada Concepción (Cs.Sociales)</li>
+                <li>Desarrollo web full stack - DIGITAL HOUSE (2022-2023)</li>
+                <li>Certified Tech Developer (2023- en curso). Carrera co-fundada por Mercado Libre y Globant.</li>
+                <li>Ingles de Adulto 2do Año en <a href="http://culturalinglesa.org.ar/" style="color: black;text-decoration: underline 1px black;">AACI</a></li>
+              </ul>
+              <a href="#contacto" class="btn btn-primary mt-3">Contáctame</a>
+            </div>
+            
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+              <div class="img-container rounded-circle overflow-hidden" style="width: 350px; height: 350px;">
+                <img src="images/fotoperfil.jpg" alt="Imagen de perfil" class="img-fluid" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="habilidades" class="py-5">
+        <div class="container">
+          <h2 class="section-title mb-5">Habilidades</h2>
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselHabilidades" class="carousel carousel-dark slide" >
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHabilidades" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselHabilidades" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselHabilidades" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselHabilidades" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselHabilidades" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/html.png" class="card-img-top" alt="Skill 1">
+                          <div class="card-body">
+                            <h5 class="card-title">HTML/EJS</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/css.png" class="card-img-top" alt="Skill 2">
+                          <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/js.png" class="card-img-top" alt="Skill 3">
+                          <div class="card-body">
+                            <h5 class="card-title">JAVASCRIPT</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/node.png" class="card-img-top" alt="Skill 4">
+                          <div class="card-body">
+                            <h5 class="card-title">NodeJs</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/react.png" class="card-img-top" alt="Skill 4">
+                          <div class="card-body">
+                            <h5 class="card-title">React</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/sql.png" class="card-img-top" alt="Skill 4">
+                          <div class="card-body">
+                            <h5 class="card-title">MySql</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/ex.png" class="card-img-top" alt="Skill 4">
+                          <div class="card-body">
+                            <h5 class="card-title">EXPRESS</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/api.png" class="card-img-top" alt="Skill 5">
+                          <div class="card-body">
+                            <h5 class="card-title">APIS</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img src="images/git.png" class="card-img-top" alt="Skill 6">
+                          <div class="card-body">
+                            <h5 class="card-title">GIT / GITHUB</h5>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+           </section>          
+           <section id="proyectos" class="py-5 bg-light">
+            <div class="container">
+              <h2 class="section-title mb-5">Proyectos</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="https://via.placeholder.com/500x325.png?text=Proyecto+1" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Huerta Ya</h5>
+                      <p class="card-text">E-commerce de verduras y frutas! (Proyecto integrador en grupo -Digital House)</p>
+                      <a href="https://github.com/Lautagonzalez9/grupo_7_HuertaYa" class="btn btn-primary" target="_blank">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="images/todolist.png" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                      <h5 class="card-title">To Do List</h5>
+                      <p class="card-text">Pequeño proyecto para demostrar mi habilidades en el backend</p>
+                      <a href="https://github.com/MarcoSavarin0/ToDoList" class="btn btn-primary" target="_blank">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="images/clima.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                      <h5 class="card-title">App web del clima</h5>
+                      <p class="card-text">En este proyecto demostre el uso de apis en el frontend</p>
+                      <a href="https://github.com/MarcoSavarin0/ToDoList" class="btn btn-primary" target="_blank">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/poke.png" class="card-img-top" alt="Proyecto 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Pokedex</h5>
+                        <p class="card-text">Utilice una api de pokemones y cree varias vistas. Hice un buscador, un paginado y un detallado de pokemones. En el detalle utilice rutas parametrizadas </p>
+                        <a href="https://github.com/MarcoSavarin0/pokedex" class="btn btn-primary" target="_blank">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/hp.jpg" class="card-img-top" alt="Proyecto 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Harry Potter</h5>
+                        <p class="card-text">Utilice la api desde el lado del backend, utilice rutas parametrizadas y filtrados por escuela de magia</p>
+                        <a href="https://github.com/MarcoSavarin0/Harry_Potter" class="btn btn-primary" target="_blank">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/ML.PNG" class="card-img-top" alt="Proyecto 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Replica de mercado libre</h5>
+                        <p class="card-text">Trabajo practico de digital house, que utilice lo aprendido de html y css</p>
+                        <a href="https://mercado-liebre-marco.onrender.com/" class="btn btn-primary" target="_blank">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>           
+          <section id="contacto" class="py-5 bg-dark text-light">
+            <div class="container">
+              <h2 class="section-title mb-5">Contáctame</h2>
+              <div class="row">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/xgebrvpy"
+                    method="POST">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nombre completo</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Mensaje</label>
+                      <textarea class="form-control" id="message" rows="5" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <p>¡Contáctame para trabajar juntos en tu próximo proyecto!</p>
+                  <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-location-dot"></i><a class="fa-githu" style="cursor: text;"> Santa Fe, Argentina</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a class="fa-githu" style="cursor: text;">savarinomarco50@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a class="fa-githu" style="cursor: text;">+54 342-472-2458</a></li>
+                    <li><i class="fa-brands fa-github"></i><a href="https://github.com/MarcoSavarin0" class="fa-githu a"  target="_blank">GitHub</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="https://github.com/MarcoSavarin0" class="fa-githu a"  target="_blank">Linkedin</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="https://drive.google.com/file/d/1EUN2BQsdslS7Gvf8WoFcxqMRo8jlFxxC/view?usp=sharing" class="btn btn-secondary btn-lg" target="_blank">Descargar mi CV</a>
+              </div>
+          </section>
+          <footer class="bg-light py-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                  <p>© 2023 Marco Savarino. Todos los derechos reservados.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+                
+                      
+                        
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.15/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
