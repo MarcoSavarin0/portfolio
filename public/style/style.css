@@ -1,6 +1,7 @@
 .banner-animate {
     opacity: 0;
     transform: translateY(-50px);
+    
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
@@ -22,7 +23,7 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url('../images/banner.jpg');
     background-size: cover;
     background-position: center center;
-    height: 200px; /* asegura que el header ocupe todo el alto de la pantalla */
+    height: 200px; 
   }
 
   #proyectos {
@@ -48,6 +49,71 @@ a {
 .col-md-4{
   margin-top: 10px;
 }
+.navbar-nav{
+  font-size: 20px;
+  margin-right: 15%;
+}
+@media (min-width: 1100px){
+  .navbar-nav{
+    font-size: 20px;
+    margin-right: 13%;
+  }
+}
+.btn:hover{
+  background-color: #0d09f8;
+}
+.btn{
+  border: none;
+  outline: none;
+  background-color: #0d0ae9;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #3527ff;
+}
+
+.btn:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #6a5fff;
+}
+.boton-carrousel span{
+  
+  background-color: #010101;
+  color: #ffffff;
+}
 
 
+.boton-modo{
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+  z-index: 10;
+}
+.boton {
+  all: unset;
+  background-color: #010101;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 5px 0px 0px #333;
+  transition: all ease 0.1s;
+}
+.boton:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #333;
+}
+.boton i {
+  margin-left: 20%;
+  color: #ffffff;
+  font-size: 25px;
+}
+.dark-mode {
+  color: #fff;
+}
+
+.dark-modeSection {
+  background-color: #303437;
+}
 
